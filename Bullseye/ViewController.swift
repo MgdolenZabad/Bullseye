@@ -60,13 +60,31 @@ class ViewController: UIViewController {
         
         
         let difference = abs(targetValue - currentValue)
-        let points = 100 - difference
+        var points = 100 - difference
+
+        
+        let title : String
+        
+        if difference == 0 {
+            title = "Perfect"
+            points += 100
+        } else if difference < 5 {
+            title = "you almost had it"
+            if difference == 1 {
+                points += 50
+            }
+        } else if difference < 10 {
+            title = "Pretty good !"
+        } else {
+            title = "not even close..."
+        }
         
         score += points
+
         
         let message = "You Scored \(points) points"
         
-        let alert = UIAlertController(title: "Hello World", message: message, preferredStyle: .alert)
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
         let action = UIAlertAction(title: "Awsome", style: .default, handler: nil)
         
