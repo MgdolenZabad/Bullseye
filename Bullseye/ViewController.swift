@@ -25,9 +25,11 @@ class ViewController: UIViewController {
         
         currentValue = lroundf(slider.value)
         
-        startNewRound()
+        startOverButton()
 
     }
+    
+   
     
     func updateLabels() {
         targetLabel.text = String(targetValue)
@@ -86,16 +88,24 @@ class ViewController: UIViewController {
         
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
-        let action = UIAlertAction(title: "Awsome", style: .default, handler: nil)
+        let action = UIAlertAction(title: "Awsome", style: .default, handler: {
+            action in
+            self.startNewRound()
+        })
         
         alert.addAction(action)
         
         present(alert, animated: true, completion: nil)
         
-        startNewRound()
         
     }
     
+    @IBAction func startOverButton() {
+        round = 0
+        score = 0
+        startNewRound()
+        
+    }
     
 }
 
