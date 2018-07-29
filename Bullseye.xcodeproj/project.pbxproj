@@ -13,6 +13,7 @@
 		557CCAFB210C0B22002A6B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 557CCAFA210C0B22002A6B1D /* Assets.xcassets */; };
 		557CCAFE210C0B22002A6B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557CCAFC210C0B22002A6B1D /* LaunchScreen.storyboard */; };
 		557CCB06210D708B002A6B1D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CCB05210D708B002A6B1D /* AboutViewController.swift */; };
+		557CCB08210D74EE002A6B1D /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CCB07210D74EE002A6B1D /* AboutMeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		557CCAFD210C0B22002A6B1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		557CCAFF210C0B22002A6B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		557CCB05210D708B002A6B1D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		557CCB07210D74EE002A6B1D /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				557CCAF3210C0B1D002A6B1D /* AppDelegate.swift */,
 				557CCAF5210C0B1D002A6B1D /* ViewController.swift */,
 				557CCB05210D708B002A6B1D /* AboutViewController.swift */,
+				557CCB07210D74EE002A6B1D /* AboutMeViewController.swift */,
 				557CCAF7210C0B1D002A6B1D /* Main.storyboard */,
 				557CCAFA210C0B22002A6B1D /* Assets.xcassets */,
 				557CCAFC210C0B22002A6B1D /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				557CCB06210D708B002A6B1D /* AboutViewController.swift in Sources */,
 				557CCAF6210C0B1D002A6B1D /* ViewController.swift in Sources */,
+				557CCB08210D74EE002A6B1D /* AboutMeViewController.swift in Sources */,
 				557CCAF4210C0B1D002A6B1D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
