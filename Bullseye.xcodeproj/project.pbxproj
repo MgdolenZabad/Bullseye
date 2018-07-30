@@ -14,6 +14,7 @@
 		557CCAFE210C0B22002A6B1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 557CCAFC210C0B22002A6B1D /* LaunchScreen.storyboard */; };
 		557CCB06210D708B002A6B1D /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CCB05210D708B002A6B1D /* AboutViewController.swift */; };
 		557CCB08210D74EE002A6B1D /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557CCB07210D74EE002A6B1D /* AboutMeViewController.swift */; };
+		557CCB0A210D85CB002A6B1D /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 557CCB09210D85CB002A6B1D /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		557CCAFF210C0B22002A6B1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		557CCB05210D708B002A6B1D /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		557CCB07210D74EE002A6B1D /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		557CCB09210D85CB002A6B1D /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		557CCAF2210C0B1D002A6B1D /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
+				557CCB09210D85CB002A6B1D /* BullsEye.html */,
 				557CCAF3210C0B1D002A6B1D /* AppDelegate.swift */,
 				557CCAF5210C0B1D002A6B1D /* ViewController.swift */,
 				557CCB05210D708B002A6B1D /* AboutViewController.swift */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				557CCAFE210C0B22002A6B1D /* LaunchScreen.storyboard in Resources */,
+				557CCB0A210D85CB002A6B1D /* BullsEye.html in Resources */,
 				557CCAFB210C0B22002A6B1D /* Assets.xcassets in Resources */,
 				557CCAF9210C0B1D002A6B1D /* Main.storyboard in Resources */,
 			);
